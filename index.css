@@ -1,16 +1,6 @@
 body{
 	background-color: lightgreen;
-}
-
-.nav {
-	margin: auto;
-	background-color: forestgreen;
-	text-transform: uppercase;
-}
-.nav li{
 	font-family: 'Inconsolata', mono;
-	display: inline;
-	color: whitesmoke;
 }
 
 .jumbotron {
@@ -21,6 +11,11 @@ body{
 	font-size: 250%;
 	font-family: 'Inconsolata', mono;
 	margin: auto;
+}
+
+.chatjoin {
+	margin-left: 35%;
+	margin-right: 35%;
 }
 
 .info {
@@ -39,4 +34,8 @@ body{
 .info h2{
 	margin-left: 40%;
 	margin-right: 40%;
+}
+
+.descrip td{
+	position: inline;
 }

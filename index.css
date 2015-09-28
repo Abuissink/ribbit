@@ -1,41 +1,25 @@
 body{
-	background-color: lightgreen;
+	background-color: white;
 	font-family: 'Inconsolata', mono;
+	position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
 }
 
 .jumbotron {
-	background-image:url('http://goo.gl/ijwpq7');
 	height: 600px;
 	width: 900px;
-	color: white;
-	font-size: 250%;
+	color: black;
 	font-family: 'Inconsolata', mono;
 	margin: auto;
 }
 
-.chatjoin {
-	margin-left: 35%;
-	margin-right: 35%;
+.jumbotron pre{
+	font-size: 250%;
 }
 
-.info {
-	font-family: 'Inconsolata', mono;
-	display: inline;
-}
-
-.infoitem {
-	width: 400px;
-}
-
-.info table {
-	background-color: forestgreen;
-}
-
-.info h2{
-	margin-left: 40%;
-	margin-right: 40%;
-}
-
-.descrip td{
-	position: inline;
+.inputbox{
+	width: 500px;
 }

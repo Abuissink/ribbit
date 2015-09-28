@@ -1,4 +1,5 @@
 body{
+<<<<<<< HEAD
 	background-color: white;
 	font-family: 'Inconsolata', mono;
 	position: absolute;
@@ -6,6 +7,10 @@ body{
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%) }
+=======
+	background-color: lightgreen;
+	font-family: 'Inconsolata', mono;
+>>>>>>> 8fb3bb2943a527fc692d945d5a384fc05af52a7b
 }
 
 .jumbotron {
@@ -16,6 +21,7 @@ body{
 	margin: auto;
 }
 
+<<<<<<< HEAD
 .jumbotron pre{
 	font-size: 250%;
 }
@@ -23,3 +29,31 @@ body{
 .inputbox{
 	width: 500px;
 }
+=======
+.chatjoin {
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+.info {
+	font-family: 'Inconsolata', mono;
+	display: inline;
+}
+
+.infoitem {
+	width: 400px;
+}
+
+.info table {
+	background-color: forestgreen;
+}
+
+.info h2{
+	margin-left: 40%;
+	margin-right: 40%;
+}
+
+.descrip td{
+	position: inline;
+}
+>>>>>>> 8fb3bb2943a527fc692d945d5a384fc05af52a7b

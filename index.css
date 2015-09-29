@@ -1,42 +1,44 @@
 body{
-	background-color: lightgreen;
-}
-
-.nav {
-	margin: auto;
-	background-color: forestgreen;
-	text-transform: uppercase;
-}
-.nav li{
+	background-color: white;
 	font-family: 'Inconsolata', mono;
-	display: inline;
-	color: whitesmoke;
+	position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
+	background-color: lightgreen;
+	font-family: 'Inconsolata', mono;
 }
 
 .jumbotron {
-	background-image:url('http://goo.gl/ijwpq7');
 	height: 600px;
 	width: 900px;
-	color: white;
-	font-size: 250%;
+	color: black;
 	font-family: 'Inconsolata', mono;
 	margin: auto;
 }
 
-.info {
-	font-family: 'Inconsolata', mono;
-	display: inline;
+.jumbotron pre{
+	font-size: 250%;
 }
 
-.infoitem {
+.chatroom{
 	width: 400px;
 }
 
-.info table {
-	background-color: forestgreen;
+.descrip td{
+	position: inline;
 }
 
-.info h2{
-	margin-left: 40%;
-	margin-right: 40%;
+.aboutheader {
+	position: relative;
+	display: inline;
+	
+}
+.aboutheader pre{
+	font-size: 70%
+}
+
+.aboutinfo i{
+	font-size: 200%;
 }
